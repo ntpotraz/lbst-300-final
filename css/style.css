@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/bookbg.png");
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 15px;
+  box-shadow: -1px 1px 15px gray;
+}
+
+.header a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 100rx 5px;
+}
+
+a.home {
+  font-size: 18px;
+  max-width: 150px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.header,
+.footer,
+.info {
+  margin: 0 10%;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: coral;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+  gap: 10px;
+}
+
+.header li {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  height: 50%;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.header li:hover {
+  background-color: gainsboro;
+}
+
+.content,
+.info {
+  display: flex;
+  background-color: white;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0 10%;
+  padding: 0 20px;
+  padding: 30px 0;
+}
+
+.content {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 20px 50px;
+  text-align: center;
+}
+
+.content img {
+  width: 350px;
+  height: 200px;
+}
+
+.content p {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.card {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+  padding: 10px 20px;
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info h1 {
+  text-align: center;
+}
+
+.info h2 {
+  padding-top: 40px;
+}
+
+.introtext {
+  width: 75%;
+  padding: 20px;
+  text-align: center;
+}
+
+.heroimg {
+  width: 75%;
+}
+
+.rightimg {
+  flex-wrap: wrap;
+}
+
+.leftimg {
+  flex-wrap: wrap-reverse;
+}
+
+.infosection, .infosingle {
+  display: flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0 50px;
+}
+
+.infosingle {
+  flex-direction: column;
+}
+
+.infosection p {
+  flex: 1;
+  min-width: 60%;
+}
+
+.infoimg {
+  flex: 1;
+  max-width: 250px;
+}
+
+.cookimg {
+  width: 400px;
+}
