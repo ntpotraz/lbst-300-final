@@ -138,6 +138,7 @@ a.home {
 
 .heroimg {
   width: 75%;
+  margin-top:10px;
 }
 
 .rightimg {
@@ -162,6 +163,11 @@ a.home {
   flex-direction: column;
 }
 
+.infosingle p {
+  padding: 0 10%;
+  text-align: center;
+}
+
 .infosection p {
   flex: 1;
   min-width: 60%;
@@ -170,6 +176,7 @@ a.home {
 .infoimg {
   flex: 1;
   max-width: 250px;
+  max-height: 250px;
 }
 
 .cookimg {
@@ -215,7 +222,6 @@ a.home {
   padding-top: 30px;
   font-weight: bold;
 }
-
 
 em {
   color: #eee;
