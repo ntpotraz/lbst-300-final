@@ -174,3 +174,25 @@ a.home {
 .cookimg {
   width: 400px;
 }
+
+.wip {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0 10%;
+  padding: 0 20px;
+  padding: 30px 0;
+  gap: 50px;
+}
+
+.wipimg {
+  justify-self: center;
+  align-self: center;
+  width: 75%;
+  max-width: 400px;
+  box-shadow: none;
+}
